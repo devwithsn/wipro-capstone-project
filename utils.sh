@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Very small helper sourced by all day*.sh
 set -Eeuo pipefail
 
 ROOT_DIR="$(pwd)"
