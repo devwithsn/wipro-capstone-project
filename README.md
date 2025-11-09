@@ -1,16 +1,20 @@
-# Wipro Capstone: Bash Scripting Suite
+# Wipro COE Embedded – Capstone Project
+by Swayambhu Satyabrata Nayak (2241014147)
 
-- **Day 1**: Backup (rsync) with basic options
-- **Day 2**: System updates/cleanup (APT/DNF/Pacman)
-- **Day 3**: Log & system scan (disk usage, failed SSH, top CPU)
-- **Day 4**: Simple menu to run 1–3 and show log
-- **Day 5**: Basic tests (sanity checks)
 
-## Quick Start
-```bash
-cd wipro_style_capstone
-cp config.env.example config.env
-nano config.env
-chmod +x day*.sh utils.sh
-bash day4.sh
-```
+A Linux automation project built entirely using **Bash scripting** as part of the **Wipro COE Embedded Capstone**.
+
+This project automates:
+- **Backups** using `rsync`
+- **System updates & cleanup**
+- **Disk, log, and process monitoring**
+- **Menu-based control for all tasks**
+ 
+*Developed under Linux OS & LSP module.*
+
+Structure:
+- **Day 1**: Backup
+- **Day 2**: System updates
+- **Day 3**: Log & system scan
+- **Day 4**: Menu
+- **Day 5**: Tests
