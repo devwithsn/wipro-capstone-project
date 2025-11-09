@@ -1,0 +1,5 @@
+config.env
+suite.log
+*.log
+.DS_Store
+Thumbs.db

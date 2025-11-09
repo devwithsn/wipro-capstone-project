@@ -1,0 +1,6 @@
+# Patterns excluded from backup
+*.tmp
+*.log
+node_modules/
+.cache/
+.DS_Store
